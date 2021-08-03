@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Mark Marilag | Web Developer',
+    title: 'Mark Marilag | %s',
     htmlAttrs: {
       lang: 'en'
     },
