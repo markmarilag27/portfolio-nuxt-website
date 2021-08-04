@@ -7,7 +7,7 @@
       </div>
       <!-- end logo wrapper -->
       <ul class="relative">
-        <li v-for="(link, index) in links" :key="index" class="inline-block px-3 font-bold text-gray-600 focus:text-gray-400">
+        <li v-for="(link, index) in links" :key="index" class="inline-block px-3 tracking-wider font-bold text-gray-600 focus:text-gray-400">
           <a :href="link.targetElement" v-text="link.text" />
         </li>
         <!-- end link -->
@@ -53,3 +53,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.bg-white {
+  z-index: 1024;
+}
+</style>
