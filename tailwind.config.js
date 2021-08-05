@@ -14,7 +14,11 @@ module.exports = {
     }
   },
   variants: {
-    extend: {}
+    extend: {
+      padding: ['last'],
+      margin: ['last'],
+      filter: ['hover']
+    }
   },
   plugins: []
 }
