@@ -1,13 +1,15 @@
 <template>
   <div class="bg-white fixed top-0 left-0 right-0 py-6">
-    <div class="container flex items-center px-4 justify-between sm:px-6 xl:mx-auto">
+    <div class="container flex items-center px-4 justify-center xl:justify-between sm:px-6 xl:mx-auto">
       <div class="w-48">
-        <SVGLogo width="100%" height="100%" />
-        <!-- end svg logo -->
+        <NuxtLink to="/">
+          <SVGLogo width="100%" height="100%" />
+          <!-- end svg logo -->
+        </NuxtLink>
       </div>
       <!-- end logo wrapper -->
       <ul class="relative">
-        <li v-for="(link, index) in links" :key="index" class="inline-block px-3 tracking-wider font-bold text-gray-600 focus:text-gray-400">
+        <li v-for="(link, index) in links" :key="index" class="hidden xl:inline-block px-3 tracking-wider font-bold text-gray-600 focus:text-gray-400">
           <a :href="link.targetElement" v-text="link.text" />
         </li>
         <!-- end link -->

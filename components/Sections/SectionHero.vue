@@ -1,13 +1,13 @@
 <template>
-  <section id="about" class="container mx-auto flex flex-wrap justify-center items-center h-screen">
-    <figure class="flex-1">
+  <section id="about" class="container mx-auto flex flex-wrap gap-6 justify-center px-6 py-12 xl:items-center xl:h-screen">
+    <figure class="flex-grow xl:flex-1">
       <img class="rounded-3xl mx-auto" src="/me.png" alt="My Journey on Metadata Computer Systems" title="My Journey on Metadata Computer Systems">
       <!-- end image -->
     </figure>
     <!-- end figure -->
-    <div class="flex-1">
+    <div class="flex-grow xl:flex-1">
       <div class="max-w-lg mx-auto">
-        <h1 class="text-5xl mr-6 font-bold mb-3 tracking-wider">
+        <h1 class="text-2xl xl:text-5xl mr-6 font-bold mb-3 tracking-wider">
           Hello Champs, I’m Mark Marilag
         </h1>
         <!-- end h1 -->

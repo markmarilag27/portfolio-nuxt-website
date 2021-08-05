@@ -1,6 +1,6 @@
 <template>
-  <div id="work" class="bg-gray-50 py-28">
-    <div class="container mx-auto">
+  <div id="work" class="bg-gray-50 py-12 xl:py-28">
+    <div class="container mx-auto px-6">
       <div class="text-gray-600 font-bold mb-3 uppercase tracking-wider">
         Work
       </div>
@@ -13,7 +13,7 @@
         Current and past work.
       </p>
       <!-- end text -->
-      <div class="grid grid-cols-3 gap-x-4 gap-y-16">
+      <div class="grid grid-cols-flow gap-x-4 gap-y-6 xl:gap-y-16 xl:grid-cols-3">
         <NuxtLink v-for="(work, index) in list" :key="index" :to="work.slug">
           <Card :work="work" />
           <!-- end card -->

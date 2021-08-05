@@ -1,7 +1,7 @@
 <template>
-  <div id="contact" class="relative py-28">
-    <div class="max-w-5xl mx-auto px-6 grid grid-cols-2 items-center">
-      <div class="box-border">
+  <div id="contact" class="relative py-12 xl:py-28">
+    <div class="max-w-5xl mx-auto px-6 grid grid-cols-flow xl:grid-cols-2 items-center">
+      <div class="w-full relative hidden xl:block">
         <SVGContactBg class="block max-w-md" />
         <!-- end contact bg -->
       </div>
