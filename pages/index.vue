@@ -6,6 +6,8 @@
     <!-- end technology stack -->
     <SectionWork />
     <!-- end section work -->
+    <SectionContact />
+    <!-- end section contact -->
   </div>
   <!-- end home page -->
 </template>
@@ -14,6 +16,7 @@
 import SectionHero from '@/components/Sections/SectionHero'
 import SectionTechnologyStack from '@/components/Sections/SectionTechnologyStack'
 import SectionWork from '@/components/Sections/SectionWork'
+import SectionContact from '@/components/Sections/SectionContact'
 
 export default {
   name: 'HomePage',
@@ -21,7 +24,8 @@ export default {
   components: {
     SectionHero,
     SectionTechnologyStack,
-    SectionWork
+    SectionWork,
+    SectionContact
   },
 
   head () {
