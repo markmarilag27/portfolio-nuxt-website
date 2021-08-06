@@ -11,7 +11,7 @@
     "image_url": "/work/ahfraffles.png",
     "company": "Appetiser Apps",
     "role": "Web Developer",
-    "slug": "/work/ahfraffles"
+    "slug": "/work/australian-horizons-foundation"
   },
   {
     "title": "Konnect HR",
@@ -32,14 +32,7 @@
     "image_url": "/work/metadata_computer_systems.jpg",
     "company": "Metadata Computer Systems",
     "role": "Software Developer",
-    "slug": "/work/metadata-uae"
-  },
-  {
-    "title": "Dual Link M.E Distributor",
-    "image_url": "/work/dual_link.png",
-    "company": "Metadata Computer Systems",
-    "role": "Software Developer",
-    "slug": "/work/dual-link"
+    "slug": "/work/metadata-computer-systems"
   },
   {
     "title": "Libra Expense Management",

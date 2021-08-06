@@ -14,7 +14,7 @@
       </p>
       <!-- end text -->
       <div class="grid grid-cols-flow gap-x-4 gap-y-6 xl:gap-y-16 xl:grid-cols-3">
-        <NuxtLink v-for="(work, index) in list" :key="index" :to="work.slug">
+        <NuxtLink v-for="(work, index) in list" :key="index" rel="alternate" :to="work.slug">
           <Card :work="work" />
           <!-- end card -->
         </NuxtLink>

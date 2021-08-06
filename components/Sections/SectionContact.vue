@@ -20,12 +20,12 @@
         </p>
         <!-- end text -->
         <div class="flex flex-nowrap gap-x-6">
-          <a href="https://www.linkedin.com/in/sayefmarilag" target="_blank" nofollow class="block">
+          <a href="https://www.linkedin.com/in/sayefmarilag" target="_blank" rel="opener" class="block">
             <SVGLinkedin class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" />
             <!-- end linkedin icon -->
           </a>
           <!-- end linkedin -->
-          <a href="https://github.com/markmarilag27" target="_blank" nofollow class="block">
+          <a href="https://github.com/markmarilag27" target="_blank" rel="opener" class="block">
             <SVGGithub class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" />
             <!-- end github icon -->
           </a>

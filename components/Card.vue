@@ -1,7 +1,15 @@
 <template>
   <div class="relative bg-white shadow rounded hover:shadow-lg transition duration-500 ease-in-out">
     <figure class="relative overflow-hidden">
-      <img :src="work.image_url" :alt="work.title" :title="work.title" class="filter grayscale rounded-t-md">
+      <img
+        lazyload="lazy"
+        :data-src="work.image_url"
+        width="512"
+        height="512"
+        :alt="work.title"
+        :title="work.title"
+        class="lazyload filter grayscale rounded-t-md"
+      >
       <!-- end image -->
       <div class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-gray-600 to-transparent hover:from-gray-800">
         <div class="w-full absolute bottom-0 py-4 px-6">

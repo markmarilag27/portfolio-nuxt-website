@@ -1,7 +1,15 @@
 <template>
   <section id="about" class="container mx-auto flex flex-wrap gap-6 justify-center px-6 py-12 xl:items-center xl:h-screen">
     <figure class="flex-grow xl:flex-1">
-      <img class="rounded-3xl mx-auto" src="/me.png" alt="My Journey on Metadata Computer Systems" title="My Journey on Metadata Computer Systems">
+      <img
+        class="lazyload rounded-full md:max-w-lg md:max-h-lg mx-auto"
+        loading="lazy"
+        width="682"
+        height="682"
+        data-src="/me.png"
+        alt="My Journey on Metadata Computer Systems"
+        title="My Journey on Metadata Computer Systems"
+      >
       <!-- end image -->
     </figure>
     <!-- end figure -->

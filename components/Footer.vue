@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-600 py-12">
     <div class="container mx-auto px-6 flex flex-wrap justify-center items-center gap-10">
-      <NuxtLink to="/">
+      <NuxtLink rel="alternate" to="/">
         <SVGLogo primary-color="white" divider-color="white" />
         <!-- end logo -->
       </NuxtLink>
