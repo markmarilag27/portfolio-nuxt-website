@@ -5,12 +5,10 @@
       <!-- end image -->
       <div class="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-t from-gray-600 to-transparent hover:from-gray-800">
         <div class="w-full absolute bottom-0 py-4 px-6">
-          <h3 class="text-2xl text-white font-bold inline-block w-32 sm:w-full sm:max-w-md truncate" v-text="work.title" />
-          <!-- end title -->
           <p class="text-white text-xs font-bold uppercase opacity-50 mb-1" v-text="work.company" />
           <!-- end company -->
-          <p class="text-white text-sm opacity-90" v-text="work.role" />
-          <!-- end role -->
+          <h3 class="text-2xl text-white font-bold inline-block w-32 sm:w-full sm:max-w-md truncate" v-text="work.title" />
+          <!-- end title -->
         </div>
         <!-- end text -->
       </div>

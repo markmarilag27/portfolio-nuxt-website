@@ -39,8 +39,10 @@
         <!-- end js -->
         <SVGVue class="mr-10" />
         <!-- end vue -->
-        <SVGBootstrap />
+        <SVGBootstrap class="mr-10" />
         <!-- end bootstrap -->
+        <SVGTailwindcss />
+        <!-- end tailwindcss -->
       </div>
       <!-- end frontend icons -->
       <p class="text-white opacity-50 tracking-wider">
@@ -52,8 +54,10 @@
         <!-- end phpstorm -->
         <SVGVsCode class="mr-10" />
         <!-- end vscode -->
-        <SVGDocker />
+        <SVGDocker class="mr-10" />
         <!-- end docker -->
+        <SVGGit />
+        <!-- end git -->
       </div>
       <!-- end other icons -->
     </div>
@@ -78,6 +82,8 @@ import SVGBootstrap from '@/components/SVG/SVGBootstrap'
 import SVGPhpStorm from '@/components/SVG/SVGPhpStorm'
 import SVGVsCode from '@/components/SVG/SVGVsCode'
 import SVGDocker from '@/components/SVG/SVGDocker'
+import SVGGit from '@/components/SVG/SVGGit'
+import SVGTailwindcss from '@/components/SVG/SVGTailwindcss'
 import SVGTechnologyStack from '@/components/SVG/SVGTechnologyStack'
 
 export default {
@@ -97,6 +103,8 @@ export default {
     SVGPhpStorm,
     SVGVsCode,
     SVGDocker,
+    SVGGit,
+    SVGTailwindcss,
     SVGTechnologyStack
   }
 }
