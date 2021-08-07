@@ -1,5 +1,5 @@
 <template>
-  <div id="contact" class="relative py-12 xl:py-28">
+  <article id="contact" class="relative py-12 xl:py-28">
     <div class="max-w-5xl mx-auto px-6 grid grid-cols-flow xl:grid-cols-2 items-center">
       <div class="w-full relative hidden xl:block">
         <SVGContactBg class="block max-w-md" />
@@ -36,7 +36,7 @@
       <!-- end flex 1 -->
     </div>
     <!-- end container -->
-  </div>
+  </article>
   <!-- end contact -->
 </template>
 

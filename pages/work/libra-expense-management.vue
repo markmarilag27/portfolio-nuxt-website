@@ -1,9 +1,9 @@
 <template>
-  <div class="container mx-auto px-6 h-full min-h-screen flex justify-center items-center">
+  <article class="container mx-auto px-6 h-full min-h-screen flex justify-center items-center">
     <h1 class="text-5xl font-bold">
       Working on the content...
     </h1>
-  </div>
+  </article>
   <!-- end page -->
 </template>
 

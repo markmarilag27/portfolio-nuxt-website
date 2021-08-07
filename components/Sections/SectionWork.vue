@@ -1,5 +1,5 @@
 <template>
-  <div id="work" class="bg-gray-50 py-12 xl:py-28">
+  <article id="work" class="bg-gray-50 py-12 xl:py-28">
     <div class="container mx-auto px-6">
       <div class="text-gray-600 font-bold mb-3 uppercase tracking-wider">
         Work
@@ -23,7 +23,7 @@
       <!-- end flex -->
     </div>
     <!-- end container -->
-  </div>
+  </article>
   <!-- end work -->
 </template>
 

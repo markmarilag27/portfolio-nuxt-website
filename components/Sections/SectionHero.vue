@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="container mx-auto flex flex-wrap gap-6 justify-center px-6 py-12 xl:items-center xl:h-screen">
+  <article id="about" class="container mx-auto flex flex-wrap gap-6 justify-center px-6 py-12 xl:items-center xl:h-screen">
     <figure class="flex-grow xl:flex-1">
       <img
         class="lazyload rounded-full md:max-w-lg md:max-h-lg mx-auto"
@@ -32,7 +32,7 @@
       </div>
     </div>
     <!-- end content -->
-  </section>
+  </article>
   <!-- end hero section -->
 </template>
 

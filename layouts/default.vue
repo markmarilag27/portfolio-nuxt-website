@@ -1,6 +1,6 @@
 <template>
   <div class="pt-28">
-    <TopNavigation :back-page="!isIndex" />
+    <TopNavigation :is-index="isIndex" />
     <!-- end top navigation -->
     <nuxt />
     <!-- end nuxt page -->

@@ -1,5 +1,5 @@
 <template>
-  <div class="home-page">
+  <main class="home-page">
     <SectionHero />
     <!-- end hero section -->
     <SectionTechnologyStack />
@@ -8,7 +8,7 @@
     <!-- end section work -->
     <SectionContact />
     <!-- end section contact -->
-  </div>
+  </main>
   <!-- end home page -->
 </template>
 

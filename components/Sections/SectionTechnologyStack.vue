@@ -1,5 +1,5 @@
 <template>
-  <section id="technology-stack" class="relative block bg-gray-600 py-12 xl:py-28">
+  <article id="technology-stack" class="relative block bg-gray-600 py-12 xl:py-28">
     <div class="container mx-auto px-6">
       <div class="text-white font-bold mb-3 opacity-60 uppercase tracking-wider">
         Technology stack
@@ -64,7 +64,7 @@
     <!-- end container -->
     <SVGTechnologyStack class="absolute bottom-0 right-0 hidden xl:block" />
     <!-- end svg technology stack -->
-  </section>
+  </article>
   <!-- end technology stack -->
 </template>
 
