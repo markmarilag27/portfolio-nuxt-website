@@ -1,6 +1,7 @@
 [
   {
     "title": "One Raise",
+    "description": "One Raise provides the software, guidance, and support for Australian charities and Not-for-Profits to conduct raffles online.",
     "image_url": "/work/oneraise.png",
     "company": "Appetiser Apps",
     "role": "Web Developer",
@@ -8,6 +9,7 @@
   },
   {
     "title": "Australian Horizons Foundation",
+    "description": "Online Charity provides financial support to much needed communities through Rotary Club of Cobar, Rotary Club of Bendigo and many more smaller organisations.",
     "image_url": "/work/ahfraffles.png",
     "company": "Appetiser Apps",
     "role": "Web Developer",
@@ -15,6 +17,7 @@
   },
   {
     "title": "Konnect HR",
+    "description": "Konnect HR is an automation managing employee, document, time-management, attendance, and payroll. Absolutely tailored for any company in the United Arab Emirates.",
     "image_url": "/work/konnect_hr.png",
     "company": "Belpro Digital",
     "role": "Freelance Web Developer",
@@ -22,6 +25,7 @@
   },
   {
     "title": "La Cantine Du Faubourg",
+    "description": "La Cantine du Faubourg is an artistic rendez-vous, a lifestyle statement. The concept relies on five key principles: sound, music, image, art and food.",
     "image_url": "/work/la_cantine_du_faubourg.jpg",
     "company": "Belpro Digital",
     "role": "Freelance Web Developer",
@@ -29,6 +33,7 @@
   },
   {
     "title": "Metadata Computer Systems",
+    "description": "Metadata UAE is an independent software and hardware vendor that provide a wide range of quality products and services in the United Arab Emirates.",
     "image_url": "/work/metadata_computer_systems.jpg",
     "company": "Metadata Computer Systems",
     "role": "Software Developer",
@@ -36,6 +41,7 @@
   },
   {
     "title": "Libra Expense Management",
+    "description": "Libra expense management is a web application tailored for Gulf Contractors Company to manage their petty cash and attendance for labour and staff records.",
     "image_url": "/work/libra_expense_management.png",
     "company": "Metadata Computer Systems",
     "role": "Software Developer",
@@ -43,6 +49,7 @@
   },
   {
     "title": "Libra Gold Management",
+    "description": "Simplifies how a gold store is managed. From the customer, employees, suppliers, products, carats, payment methods, taxes, cost code, accounting, and inventory.",
     "image_url": "/work/libra_gold_management.png",
     "company": "Metadata Computer Systems",
     "role": "Software Developer",

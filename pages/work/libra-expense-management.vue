@@ -1,20 +1,32 @@
 <template>
-  <article class="container mx-auto px-6 h-full min-h-screen flex justify-center items-center">
-    <h1 class="text-5xl font-bold">
-      Working on the content...
-    </h1>
-  </article>
+  <main>
+    <SectionAbout :work="work" />
+    <!-- end about -->
+  </main>
   <!-- end page -->
 </template>
 
 <script>
+import SectionAbout from '@/components/Sections/SectionAbout'
+import workMixin from '@/mixins/work-mixin'
 
 export default {
   name: 'LibraExpenseManagement',
 
+  components: {
+    SectionAbout
+  },
+
+  mixins: [workMixin],
+
+  scrollToTop: false,
+
   head () {
     return {
-      title: 'Libra Expense Management',
+      title: this.work.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.work.description }
+      ],
       link: [
         { rel: 'canonical', href: this.$config.baseURL + this.$route.path }
       ]

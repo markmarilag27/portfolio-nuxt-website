@@ -28,6 +28,8 @@ export default {
     SectionContact
   },
 
+  scrollToTop: false,
+
   head () {
     return {
       title: 'Web Developer',

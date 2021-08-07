@@ -4,6 +4,7 @@
       <img
         lazyload="lazy"
         :data-src="work.image_url"
+        src="/placeholder.svg"
         width="512"
         height="512"
         :alt="work.title"

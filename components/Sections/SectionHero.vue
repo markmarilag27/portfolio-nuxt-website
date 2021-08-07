@@ -7,6 +7,7 @@
         width="682"
         height="682"
         data-src="/me.png"
+        src="/placeholder.svg"
         alt="My Journey on Metadata Computer Systems"
         title="My Journey on Metadata Computer Systems"
       >
