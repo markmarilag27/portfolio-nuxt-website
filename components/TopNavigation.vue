@@ -55,10 +55,6 @@ const workLinks = [
     targetElement: '#about'
   },
   {
-    text: 'Challenges',
-    targetElement: '#challenges'
-  },
-  {
     text: 'Contact',
     targetElement: '#contact'
   }

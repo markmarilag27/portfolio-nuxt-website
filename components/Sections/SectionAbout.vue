@@ -1,5 +1,5 @@
 <template>
-  <article id="about" class="bg-gray-50 min-h-full flex flex-col justify-center items-center">
+  <article id="about" class="min-h-full flex flex-col justify-center items-center">
     <figure class="mt-6 max-w-screen-xl mx-auto">
       <img
         loading="lazy"
@@ -8,6 +8,8 @@
         :alt="work.title"
         :title="work.title"
         class="lazyload rounded"
+        width="1280"
+        height="720"
       >
     </figure>
     <!-- end figure -->
