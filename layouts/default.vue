@@ -1,26 +1,15 @@
 <template>
-  <div class="pt-28">
-    <TopNavigation :is-index="isIndex" />
-    <!-- end top navigation -->
+  <div>
     <nuxt />
     <!-- end nuxt page -->
-    <Footer />
-    <!-- end footer -->
   </div>
 </template>
 
 <script>
-import TopNavigation from '@/components/TopNavigation'
-import Footer from '@/components/Footer'
 import lazysizes from 'lazysizes'
 
 export default {
   name: 'Main',
-
-  components: {
-    TopNavigation,
-    Footer
-  },
 
   computed: {
     isIndex () {
