@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Skills",
+    "list": [
+      "Visual design",
+      "Design systems",
+      "Prototyping",
+      "Debugging",
+      "Profiling",
+      "Responsive design",
+      "Adaptable design",
+      "Cross Browser Compatibility"
+    ]
+  },
+  {
+    "title": "Tools",
+    "list": [
+      "VSCode",
+      "Chrome Dev Tools",
+      "Browserstack",
+      "Webpack",
+      "Linter",
+      "Prettier",
+      "Yarn & NPM",
+      "Git"
+    ]
+  },
+  {
+    "title": "Technologies",
+    "list": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "ECMAScript 2015-2018",
+      "Vue.js & Ecosystem",
+      "Bootstrap",
+      "Bulma.io",
+      "Vuetify.js",
+      "TailwindCSS"
+    ]
+  }
+]

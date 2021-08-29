@@ -1,20 +1,21 @@
 <template>
   <div>
-    <nuxt />
+    <TopNavigation />
+    <!-- end top navigation -->
+    <Nuxt />
     <!-- end nuxt page -->
   </div>
 </template>
 
 <script>
 import lazysizes from 'lazysizes'
+import TopNavigation from '@/components/TopNavigation.vue'
 
 export default {
   name: 'Main',
 
-  computed: {
-    isIndex () {
-      return this.$route.name === 'index'
-    }
+  components: {
+    TopNavigation
   },
 
   mounted () {
@@ -54,6 +55,8 @@ export default {
 <style>
 html {
   scroll-behavior: smooth;
+  background-color: black;
+  padding-top: 4rem;
 }
 html body {
   -webkit-tap-highlight-color: transparent;

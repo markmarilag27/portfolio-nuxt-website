@@ -1,13 +1,20 @@
 <template>
   <main class="home-page">
-    Foo
+    <SectionAbout />
+    <!-- end section about -->
   </main>
   <!-- end home page -->
 </template>
 
 <script>
+import SectionAbout from '@/components/Sections/SectionAbout.vue'
+
 export default {
   name: 'HomePage',
+
+  components: {
+    SectionAbout
+  },
 
   scrollToTop: false,
 
