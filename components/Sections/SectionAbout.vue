@@ -55,7 +55,7 @@
     <!-- end block -->
     <Block title="Working as Front End Developer" :items="frontendBuildMethod">
       <p class="xl:text-xl text-white tracking-wider leading-loose pb-12">
-        I love to create elegant UI by collaborating with UI/UX designer to make sure It’s consistent to the brand and well-performing web sites and web applications by making sure that bundle size is small, removing AJAX requests that are not necessary and profiling to make sure there is no memory leak.
+        I love to create elegant UI by collaborating with UI/UX designer to make sure It’s consistent to the brand and build well-performing web sites and web applications by making sure that bundle size is small, removing AJAX requests that are not necessary and profiling to make sure there is no memory leak.
       </p>
       <!-- end paragraph -->
     </Block>
