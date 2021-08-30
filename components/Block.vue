@@ -7,7 +7,7 @@
         <slot />
         <!-- end paragraph -->
         <div class="flex flex-wrap gap-4">
-          <div v-for="(item, itemIndex) in items" :key="itemIndex" class="w-full xl:flex-1">
+          <div v-for="(item, itemIndex) in items" :key="itemIndex" class="w-full md:flex-1">
             <h3 class="text-white font-bold uppercase text-sm mb-1" v-text="item.title" />
             <!-- end header -->
             <ul class="list-disc leading-loose text-sm">
