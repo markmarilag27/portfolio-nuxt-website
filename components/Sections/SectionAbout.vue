@@ -1,8 +1,8 @@
 <template>
   <article id="about" class="relative flex flex-wrap justify-center items-center min-h-screen h-full py-32">
-    <div class="flex w-full max-w-screen-xl px-4 items-center pb-56">
-      <div class="flex-auto mx-16">
-        <h1 class="text-9xl text-white font-bold tracking-wider mb-6">
+    <div class="flex w-full flex-wrap flex-col-reverse gap-8 xl:flex-row max-w-screen-xl px-4 items-center pb-56">
+      <div class="w-full max-w-screen-sm">
+        <h1 class="text-5xl xl:text-9xl text-white font-bold tracking-wider mb-6">
           Hello, I'm Mark Marilag.
         </h1>
         <!-- end title -->
@@ -12,8 +12,8 @@
         <!-- end paragraph -->
       </div>
       <!-- end column -->
-      <div class="flex-auto pointer-events-none z-10">
-        <figure class="relative mx-28 w-64">
+      <div class="w-full xl:w-64 pointer-events-none z-10">
+        <figure class="relative block mx-auto xl:mx-28 w-64">
           <img
             width="256"
             height="256"
@@ -29,7 +29,7 @@
         <!-- end figure -->
       </div>
       <!-- end column -->
-      <figure class="absolute max-w-sm right-8 top-8 pointer-events-none z-0">
+      <figure class="absolute max-w-lg right-8 top-8 pointer-events-none z-0">
         <img
           width="100%"
           height="100%"
@@ -48,20 +48,20 @@
     <Companies />
     <!-- end companies -->
     <Block title="Working as Back End Developer" :items="backendBuildMethod">
-      <p class="text-xl text-white tracking-wider leading-loose pb-12">
+      <p class="xl:text-xl text-white tracking-wider leading-loose pb-12">
         I strive to build robust, scalable and performant backend by debugging slow queries, finding N+1 issues and not properly indexed columns and write tests to ensure application does not break. Of Course writing clean code is a norm and following popular design patterns such as Model-View-Controller (MVC), Repository and Actions.
       </p>
     </Block>
     <!-- end block -->
     <Block title="Working as Front End Developer" :items="frontendBuildMethod">
-      <p class="text-xl text-white tracking-wider leading-loose pb-12">
+      <p class="xl:text-xl text-white tracking-wider leading-loose pb-12">
         I love to create elegant UI by collaborating with UI/UX designer to make sure It’s consistent to the brand and well-performing web sites and web applications by making sure that bundle size is small, removing AJAX requests that are not necessary and profiling to make sure there is no memory leak.
       </p>
       <!-- end paragraph -->
     </Block>
     <!-- end block -->
-    <Block title="Insight About me" :items="innerMe">
-      <p class="text-xl text-white tracking-wider leading-loose pb-12">
+    <Block title="More About me" :items="innerMe">
+      <p class="xl:text-xl text-white tracking-wider leading-loose pb-12">
         I'm an ambitious and driven person. I thrive on the challenges and constantly set goals (<strong>OKR</strong>) for my projects and myself, so I have something to strive towards for achieving my goals. And I believe to build quality software It needs good collaboration, documentation and testing.
       </p>
       <!-- end paragraph -->
