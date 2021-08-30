@@ -10,8 +10,8 @@
       "Restful API",
       "Server management",
       "Debugging",
-      "Test Driven Development",
-      "Feature Testing"
+      "Test driven development",
+      "Feature testing"
     ]
   },
   {
@@ -33,6 +33,7 @@
       "Laravel & It's Ecosystem",
       "MySQL",
       "Ubuntu (Linux)",
+      "PHPUnit",
       "Redis",
       "Nginx/Apache",
       "AWS",
