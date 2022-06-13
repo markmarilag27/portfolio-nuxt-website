@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import companies from '@/json/companies.json'
+</script>
+
 <template>
   <div class="relative w-full flex flex-wrap max-w-screen-xl justify-center items-center xl:py-24 px-4">
     <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold text-white leading-snug">
@@ -24,15 +28,3 @@
   </div>
   <!-- end companies -->
 </template>
-
-<script>
-import companies from '@/data/companies.json'
-
-export default {
-  name: 'Companies',
-
-  data: () => ({
-    companies
-  })
-}
-</script>

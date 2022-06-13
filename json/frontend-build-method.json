@@ -6,7 +6,6 @@
       "Design systems",
       "Prototyping",
       "Debugging",
-      "Profiling",
       "Responsive design",
       "Adaptable design",
       "Cross Browser Compatibility"
@@ -20,7 +19,6 @@
       "Browserstack",
       "Webpack",
       "Linter",
-      "Prettier",
       "Yarn & NPM",
       "Figma"
     ]
@@ -31,11 +29,13 @@
       "HTML",
       "CSS",
       "JavaScript",
-      "ECMAScript 2015-2018",
-      "Vue.js & It's Ecosystem",
-      "Bootstrap",
-      "Bulma.io",
-      "Vuetify.js",
+      "Familiar with Typescript",
+      "ECMAScript 2016",
+      "Vue.js 2",
+      "Vue Router",
+      "Vuex",
+      "Nuxt",
+      "Familiar with React.js",
       "TailwindCSS"
     ]
   }

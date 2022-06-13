@@ -1,3 +1,16 @@
+<script setup lang="ts">
+defineProps({
+  width: {
+    type: String,
+    default: '100%'
+  },
+  height: {
+    type: String,
+    default: '100%'
+  },
+})
+</script>
+
 <template>
   <svg :width="width" :height="height" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0)">
@@ -11,13 +24,3 @@
     </defs>
   </svg>
 </template>
-
-<script>
-import SVGMixin from '@/mixins/svg-mixin'
-
-export default {
-  name: 'Logo',
-
-  mixins: [SVGMixin]
-}
-</script>

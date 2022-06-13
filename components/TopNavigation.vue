@@ -1,14 +1,44 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+import LogoSVG from '@/components/SVG/LogoSVG.vue'
+const links = ref([
+  {
+    text: 'About',
+    target: '_self',
+    href: '#about',
+  },
+  {
+    text: 'Work',
+    target: '_self',
+    href: '#work'
+  },
+  {
+    text: 'Github',
+    target: '_blank',
+    href: 'https://github.com/markmarilag27',
+  },
+  {
+    text: 'Linkedin',
+    target: '_blank',
+    href: 'https://www.linkedin.com/in/sayefmarilag',
+  }
+])
+</script>
+
+
 <template>
   <nav class="fixed flex justify-between items-center top-0 left-0 right-0 px-4 py-3">
     <NuxtLink to="/" class="relative w-10">
-      <Logo />
+      <LogoSVG />
       <!-- end logo -->
     </NuxtLink>
     <!-- end home page link -->
 
     <ul class="relative flex">
       <li v-for="(link, linkIndex) in links" :key="linkIndex">
-        <a :href="link.target" class="text-white font-sm tracking-wider ml-4" v-text="link.text" />
+        <a :href="link.href" class="text-white font-sm tracking-wider ml-6" :target="link.target">
+          <span v-text="link.text" />
+        </a>
         <!-- end link -->
       </li>
       <!-- end list -->
@@ -16,37 +46,6 @@
     <!-- end unordered list -->
   </nav>
 </template>
-
-<script>
-import Logo from './SVG/Logo.vue'
-
-export default {
-  name: 'TopNavigation',
-
-  components: {
-    Logo
-  },
-
-  data () {
-    return {
-      links: [
-        {
-          text: 'About',
-          target: '#about'
-        },
-        {
-          text: 'Work',
-          target: '#work'
-        },
-        {
-          text: 'Contact',
-          target: '#contact'
-        }
-      ]
-    }
-  }
-}
-</script>
 
 <style scoped>
 nav {

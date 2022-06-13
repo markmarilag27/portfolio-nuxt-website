@@ -2,22 +2,19 @@
   {
     "title": "Skills",
     "list": [
-      "Object-oriented Programming",
-      "Design Patterns",
-      "Relational Database",
-      "Cache",
+      "SQL",
       "Multitenancy",
       "Restful API",
       "Server management",
       "Debugging",
-      "Test driven development",
-      "Feature testing"
+      "Event-Driven",
+      "Feature and Unit Testing",
+      "Test driven development"
     ]
   },
   {
     "title": "Tools",
     "list": [
-      "PHPStorm",
       "VSCode",
       "Docker",
       "Postman",
@@ -32,14 +29,11 @@
       "PHP",
       "Laravel & It's Ecosystem",
       "MySQL",
+      "Familiar with PostgreSQL",
       "Ubuntu (Linux)",
-      "PHPUnit",
       "Redis",
-      "Nginx/Apache",
-      "AWS",
-      "Google Cloud",
-      "DigitalOcean",
-      "Firebase"
+      "Nginx",
+      "AWS"
     ]
   }
 ]

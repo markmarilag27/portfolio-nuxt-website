@@ -1,3 +1,13 @@
+<script setup lang="ts">
+import ItemProp from '@/models/item-prop.model'
+interface BlockProp {
+  title: String,
+  items: ItemProp[]
+}
+const { title, items } = defineProps<BlockProp>()
+</script>
+
+
 <template>
   <div class="relative flex w-full flex-wrap max-w-screen-xl py-24 px-4">
     <div class="flex-grow flex flex-wrap">
@@ -26,20 +36,3 @@
   </div>
   <!-- end flex -->
 </template>
-
-<script>
-export default {
-  name: 'Block',
-
-  props: {
-    title: {
-      type: String,
-      default: 'Example title'
-    },
-    items: {
-      type: Array,
-      default: () => ([])
-    }
-  }
-}
-</script>

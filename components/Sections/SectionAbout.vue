@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import backendBuildMethod from '@/json/backend-build-method.json'
+import frontendBuildMethod from '@/json/frontend-build-method.json'
+import aboutMe from '@/json/about-me.json'
+</script>
+
 <template>
   <article id="about" class="relative flex flex-wrap justify-center items-center min-h-screen h-full py-32">
     <div class="flex w-full flex-wrap flex-col-reverse gap-8 xl:flex-row max-w-screen-xl px-4 items-center pb-56">
@@ -7,7 +13,7 @@
         </h1>
         <!-- end title -->
         <p class="text-2xl text-gray-100 tracking-wider leading-loose">
-          I’m a web developer based in the Philippines with almost 5 years of experience building modern web sites and web applications.
+          I’m a web developer with 5 years of experience building different types of web apps, from green field development to specializing in the fin-tech industry.
         </p>
         <!-- end paragraph -->
       </div>
@@ -49,20 +55,20 @@
     <!-- end companies -->
     <Block title="Working as Back End Developer" :items="backendBuildMethod">
       <p class="xl:text-xl text-white tracking-wider leading-loose pb-12">
-        I strive to build robust, scalable and performant backend by debugging slow queries, finding N+1 issues and not properly indexed columns and write tests to ensure application does not break. Of Course writing clean code is a norm and following popular design patterns such as Model-View-Controller (MVC), Repository and Actions.
+        I strive to write robust features while I love writing tests whenever It’s feature or unit testing especially when debugging for a bug fix and refactoring.
       </p>
     </Block>
     <!-- end block -->
     <Block title="Working as Front End Developer" :items="frontendBuildMethod">
       <p class="xl:text-xl text-white tracking-wider leading-loose pb-12">
-        I love to create elegant UI by collaborating with UI/UX designer to make sure It’s consistent to the brand and build well-performing web sites and web applications by making sure that bundle size is small, removing AJAX requests that are not necessary and profiling to make sure there is no memory leak.
+        I love to create elegant UI by collaborating with UI/UX designer to make sure It’s consistent to the brand and build well-performing web sites and web applications.
       </p>
       <!-- end paragraph -->
     </Block>
     <!-- end block -->
-    <Block title="More About me" :items="innerMe">
+    <Block title="What I Like The Most" :items="aboutMe">
       <p class="xl:text-xl text-white tracking-wider leading-loose pb-12">
-        I'm an ambitious and driven person. I thrive on the challenges and constantly set goals (<strong>OKR</strong>) for my projects and myself, so I have something to strive towards for achieving my goals. And I believe to build quality software It needs good collaboration, documentation and testing.
+        I value a non-toxic working environment and blameless culture. Instead of pointing fingers to each other I rather provide a solution to the issues or problems and pull each other to the finish line.
       </p>
       <!-- end paragraph -->
     </Block>
@@ -70,26 +76,3 @@
   </article>
   <!-- end article -->
 </template>
-
-<script>
-import backendBuildMethod from '@/data/backend-build-method.json'
-import frontendBuildMethod from '@/data/frontend-build-method.json'
-import innerMe from '@/data/inner-me.json'
-import Companies from '@/components/Companies.vue'
-import Block from '@/components/Block.vue'
-
-export default {
-  name: 'SectionAbout',
-
-  components: {
-    Companies,
-    Block
-  },
-
-  data: () => ({
-    backendBuildMethod,
-    frontendBuildMethod,
-    innerMe
-  })
-}
-</script>

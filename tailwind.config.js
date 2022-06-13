@@ -1,12 +1,14 @@
 module.exports = {
-  purge: [
-    './components/**/*.{vue,js}',
-    './layouts/**/*.vue',
-    './pages/**/*.vue',
-    './plugins/**/*.{js,ts}',
-    './nuxt.config.{js,ts}'
+  mode: 'jit',
+  content: [
+    'components/**/*.{vue,js}',
+    'layouts/**/*.vue',
+    'pages/**/*.vue',
+    'composables/**/*.{js,ts}',
+    'plugins/**/*.{js,ts}',
+    'App.{js,ts,vue}',
+    'app.{js,ts,vue}'
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       screens: {
@@ -17,12 +19,5 @@ module.exports = {
       sans: ['Montserrat', 'sans-serif']
     }
   },
-  variants: {
-    extend: {
-      padding: ['last'],
-      margin: ['last'],
-      filter: ['hover']
-    }
-  },
-  plugins: []
+  plugins: [],
 }
